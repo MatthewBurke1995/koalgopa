@@ -1,0 +1,86 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+$fresh-link-colour: #0000EE;
+$hover-link-colour: #EE0000;
+$visited-link-colour: #551A8B;
+
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.bgimg {
+    background-image: url("/img/firstfleet.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+
+}
+
+.darken-pseudo {
+  position: relative;
+}
+
+
+.darken-pseudo:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.darken-with-text p, .darken-with-text h1 {
+  margin: 0;
+  text-align: center;
+  color: white;
+  padding-top: 0;
+  position: relative;
+  z-index: 1;
+}
+
+a { color:$fresh-link-colour; }
+a:hover { color:$hover-link-colour; }
+a:visited { color: $visited-link-colour ; }
+
+td:first-child {
+  font-weight: bold;
+}
+
+.bottom-buffer {
+  margin-bottom::10px;
+}
+
+.white-space {
+  white-space: pre-wrap;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+    padding-bottom: 200px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+}
+
