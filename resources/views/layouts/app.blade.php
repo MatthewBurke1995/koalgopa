@@ -94,7 +94,7 @@
       <div class="text-white row pt-4">
 
           <!--First column-->
-            <div class="col-md-6">
+            <div class="col-sm-6 d-none d-sm-block">
                 <p>'코알고파'는 코알라랑 알고파라는 단어 합치는 말입니다. 이사이트는 한인 워홀러들 위한 지식 커뮤니티 공간입니다.</p>
                 <p>  호주 오는 워홀러들이 호주 워홀 단점 피하고 장점 향상 시킬 수 있다면 좋겠다는 마음에 만든 사이트라서 여기서 잘 못 된 정보 있으시면 바로 이메일로
                 연락해주시길 바랍니다. </p>
@@ -103,7 +103,7 @@
 
 
           <!--Second column-->
-          <div class="col-md-6 mx-auto">
+          <div class="col-sm-6 mx-auto">
               <p>Contact: {{config('mail.username')}}</p>
               <p>The contents of this webpage are copyright © {{date("Y")}} {{config('app.name', 'Koreansite')}}. </p>
 

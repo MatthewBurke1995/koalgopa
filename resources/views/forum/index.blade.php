@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-9">
 
-          <h1 class="text-secondary"> 자유 게시판</h1>
+          <h1 class="text-secondary mx-auto"> 자유 게시판</h1>
 
           <table class="table table-striped">
             <tbody>
@@ -26,7 +26,7 @@
 
         </div>
 
-        <div class="col-sm-3">
+          <div class="col-md-3 d-none d-md-block">
           <div class="sidebar-module">
             <h4>게시판 매너</h4>
             <ol class="list-unstyled">
