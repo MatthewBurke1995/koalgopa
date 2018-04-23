@@ -17,6 +17,7 @@
 
             <p class="lead">{!! firstParagraph($interview->interviewText) !!}</p>
             <p class="font-italic text-right"><a href="interviews/{{ $interview->interviewid}}">Continue reading... </a></p>
+
             <hr>
 
           @endforeach

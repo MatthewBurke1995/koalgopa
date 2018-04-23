@@ -19,6 +19,8 @@ Vue.component('example-component', require('./components/ExampleComponent.vue'))
 Vue.component('qanda', require('./components/Qanda.vue'));
 Vue.component('forumpost', require('./components/forumpost.vue'));
 
+Vue.component('comment', require('./components/comment.vue'));
+
 
 
 const app = new Vue({

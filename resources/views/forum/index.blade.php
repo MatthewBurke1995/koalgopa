@@ -23,6 +23,7 @@
           <p> Please <a href="{{ route('login') }}"><b>login</b></a> to create a post. </p>
         @endif
 
+        {{ $posts->links() }}
 
         </div>
 

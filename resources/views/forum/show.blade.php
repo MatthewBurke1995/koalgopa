@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-12">
 
 
           <div class="card border-dark bottom-buffer">
@@ -19,22 +19,23 @@
 
               @foreach ($comments as $comment)
 
-              <div class="card bottom-buffer">
-                <h6 class="card-header">{{$loop->iteration}}. {{$comment->name}}</h6>
-                <div class="card-body">
-                  <p class="m-0 card-text white-space">{{ $comment->commentText }} </p>
-                  <p class=" m-0 text-right text-muted">{{$comment->commentCreatedTime}}</p>
+              <comment iteration="{{$loop->iteration}}" commentid={{"$comment->commentid"}} name="{{ $comment->name }}" commenttext="{{ $comment->commentText }}"  commentcreatedtime="{{ $comment->commentCreatedTime }}"  level="{{ $comment->level }}" parentid="{{ $comment->parentid }}"> </comment>
 
-                </div>
-              </div>
 
 
               @endforeach
+
+
+
+
               @if (Auth::check())
 
               <form action="commentStore" method="POST">
                 @csrf
                 <div class="form-group mt-5">
+                  <label for="parentid">parentid</label>
+                  <input name="parentid" type="text" class="form-control" id="parentid" required>
+
                   <label for="commentText">New comment:</label>
                   <textarea name="commentText" class="form-control" id="commentText" rows="3" required></textarea>
                   <input name="postid" type="hidden" value="{{$post->postid}}">
