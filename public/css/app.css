@@ -10001,7 +10001,6 @@ a.text-dark:focus {
 }
 
 .bgimg {
-  background-image: url("/img/firstfleet.jpg");
   background-size: cover;
   /* <------ */
   background-repeat: no-repeat;

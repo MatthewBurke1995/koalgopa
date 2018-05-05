@@ -14,11 +14,13 @@ window.Vue = require('vue');
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
+ Vue.component('interviewpreview', require('./components/interviewpreview.vue'));
+
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 Vue.component('qanda', require('./components/Qanda.vue'));
-Vue.component('forumpost', require('./components/forumpost.vue'));
 
+Vue.component('forumpost', require('./components/forumpost.vue'));
 Vue.component('comment', require('./components/comment.vue'));
 
 

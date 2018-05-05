@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-10">
+        <div class="col-lg-12">
 
           <h3 class="pb-3 mb-4 font-italic border-bottom">
             Interviews
@@ -11,21 +11,15 @@
 
           @foreach ($interviews as $interview)
 
-          <div class="blog-post">
-            <h2>{{ $interview->interviewTitle }}</h2>
-            <p class="blog-post-meta">{{ prettydate($interview->interviewCreatedTime) }} by {{ $interview->author }}</p>
 
-            <p class="lead">{!! firstParagraph($interview->interviewText) !!}</p>
-            <p class="font-italic text-right"><a href="interviews/{{ $interview->interviewid}}">Continue reading... </a></p>
+          <interviewpreview interviewtitle="{{ $interview->interviewTitle }}" author="{{ $interview->author }}" interviewcreatedtime="{{ prettydate($interview->interviewCreatedTime) }}" interviewtext="{!! firstParagraph($interview->interviewText) !!}" interviewid="{{$interview->interviewid}}" interviewthumbnail="{{ $interview->interviewThumbnail }}"> </interviewpreview>
 
-            <hr>
 
           @endforeach
 
 
 
 
-        </div>
     </div>
   </div>
 @endsection

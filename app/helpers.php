@@ -11,7 +11,12 @@ function prettydatetime($datetime) {
 
 function firstParagraph($string) {
   $string_list = explode("\n", $string);
-  return $string_list[0];
+  return $string_list[0] . '...';
+}
+
+function first250CJK ($string) {
+  preg_match('/.{,250}\s/u', $string, $matches);
+  return $matches[0] . '...';
 }
 
 function first100CJK($string) {
@@ -31,7 +36,7 @@ return substr($string, 0, 50) . '...';
 
 }
 
-function comment_sort($comments, $parent_node=NULL, $level=0) {
+function comment_sort($comments, $parent_node=0, $level=0) {
   //parent_node is the parentid for the first level of comments i.e. NULL
   //level correspondes to how deep the comment is within the comment tree
   //comments is the original set of comments given as a stdObject

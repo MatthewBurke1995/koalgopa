@@ -4,52 +4,89 @@
 <div class="container">
 	<div class="row justify-content-center">
 		<div class="col-md-12">
-			<div class="jumbotron p-3 p-md-5 text-white rounded bgimg darken-pseudo darken-with-text">
-				<div class="col-md-6 px-0">
-					<h1 class="display-4 font-weight-bold font-italic text-white">호주 처음이죠?</h1>
-					<p class="lead my-2">처음이라서 누구나 힘들지만 노하우 생기면 쉬워집니다 적응하도록 알면 좋은 팁이 가득한 사이트가 준비됐습니다</p>
-					<p class="lead mb-2"><a href="#about" class="text-white font-weight-bold">조금 더 알아보기...</a></p>
+
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner" role="listbox">
+					<div class="carousel-item active">
+						<div class="jumbotron p-3 p-md-5 text-white rounded bgimg darken-pseudo darken-with-text" style="background-image: url('/img/firstfleet.jpg')">
+							<div class="col-md-6 px-0">
+								<h1 class="display-4 font-weight-bold font-italic text-white">호주 처음이죠?</h1>
+								<p class="lead my-2">처음이라서 누구나 힘들지만 노하우 생기면 쉬워집니다 적응하도록 알면 좋은 팁이 가득한 사이트가 준비됐습니다</p>
+								<p class="lead mb-2"><a href="#about" class="text-white font-weight-bold">조금 더 알아보기...</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="jumbotron p-3 p-md-5 text-white rounded bgimg darken-pseudo darken-with-text" style="background-image: url('/img/kangaroo2.jpg')">
+							<div class="col-md-6 px-0">
+								<h1 class="display-4 font-weight-bold font-italic text-white">호주 처음이죠?</h1>
+								<p class="lead my-2">처음이라서 누구나 힘들지만 노하우 생기면 쉬워집니다 적응하도록 알면 좋은 팁이 가득한 사이트가 준비됐습니다</p>
+								<p class="lead mb-2"><a href="#about" class="text-white font-weight-bold">조금 더 알아보기...</a></p>
+							</div>
+						</div>
+
+					</div>
+					<div class="carousel-item">
+						<div class="jumbotron p-3 p-md-5 text-white rounded bgimg darken-pseudo darken-with-text" style="background-image: url('/img/firstfleet2.jpg')">
+							<div class="col-md-6 px-0">
+								<h1 class="display-4 font-weight-bold font-italic text-white">호주 처음이죠?</h1>
+								<p class="lead my-2">처음이라서 누구나 힘들지만 노하우 생기면 쉬워집니다 적응하도록 알면 좋은 팁이 가득한 사이트가 준비됐습니다</p>
+								<p class="lead mb-2"><a href="#about" class="text-white font-weight-bold">조금 더 알아보기...</a></p>
+							</div>
+						</div>
+
+					</div>
 				</div>
+				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
 			</div>
+
+
 
 
 
 			<div class="row mb-2">
 				<div class="col-md-6">
-					<div class="card flex-md-row mb-4 box-shadow h-md-250">
+					<div class="card flex-lg-row mb-4 box-shadow h-md-250">
 						<div class="card-body d-flex flex-column align-items-start">
 							<strong class="d-inline-block mb-2 text-primary">인터뷰</strong>
 							<h3 class="mb-0">
 										<a class="text-dark" href="interviews/{{ $interview->interviewid }}">{{ $interview->interviewTitle }}</a>
 									</h3>
 							<div class="mb-1 text-muted">{{ prettydate($interview->interviewCreatedTime) }}</div>
-							<p class="card-text mb-auto">{!! first100CJK(firstParagraph($interview->interviewText)) !!}</p>
+							<p class="card-text mb-auto">{!! first100CJK($interview->interviewText) !!}</p>
 							<a href="interviews/{{$interview->interviewid}}">Continue reading</a>
 
 						</div>
-						<img class="card-img-right flex-auto d-none d-md-block mr-2" alt="Thumbnail [200x250]" src="{{ asset('img/interview.svg') }}" style="width: 200px; height: 250px;">
 					</div>
 				</div>
 
 				<div class="col-md-6">
-					<div class="card flex-md-row mb-4 box-shadow h-md-250">
+					<div class="card flex-lg-row mb-4 box-shadow h-md-250">
 						<div class="card-body d-flex flex-column align-items-start">
 							<strong class="d-inline-block mb-2 text-success">기사</strong>
 							<h3 class="mb-0">
 										<a class="text-dark" href="news/{{$article->articleid}}">{{ $article->articleTitle }}</a>
 									</h3>
 							<div class="mb-1 text-muted">{{ prettydate($article->articleCreatedTime) }}</div>
-							<p class="card-text mb-auto">{!! first100CJK(firstParagraph($article->articleText)) !!}</p>
+							<p class="card-text mb-auto">{!! first100CJK($article->articleText) !!}</p>
 							<a href="news/{{$article->articleid}}">Continue reading</a>
 						</div>
-						<img class="card-img-right flex-auto d-none d-md-block mr-2" alt="Thumbnail [200x250]" src="{{ asset('img/news.svg') }}" style="width: 200px; height: 250px;">
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
+
 			<div class="row mb-2 justify-content-center">
-				<div class="col-md-10">
+				<div class="col-md-9">
 					<h2 class="pb-3 mb-4 border-bottom" id="about">
 						다른 사람 같은 고민
 					</h2>
@@ -96,6 +133,9 @@
 
 							<qanda question="한국 사람들이 많나?" answer="AAAAAAAA"> </qanda>
 							<qanda question="공기관 쓰고싶은데 영어 못 해서 어떡하나?" answer="AAAAAAAA"> </qanda>
+
+
+
 
 						</div>
 
@@ -164,6 +204,44 @@
 
 					</div>
 				</div>
+
+
+				<aside class="col-md-3 blog-sidebar d-none d-md-block">
+          <div class="p-3 mb-3 bg-white rounded">
+            <h4 class="font-italic">About</h4>
+            <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+          </div>
+
+          <div class="p-3">
+            <h4 class="font-italic">Archives</h4>
+            <ol class="list-unstyled mb-0">
+              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">March 2014</a></li>
+              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">February 2014</a></li>
+              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">January 2014</a></li>
+              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">December 2013</a></li>
+              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">November 2013</a></li>
+              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">October 2013</a></li>
+              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">September 2013</a></li>
+              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">August 2013</a></li>
+              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">July 2013</a></li>
+              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">June 2013</a></li>
+              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">May 2013</a></li>
+              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">April 2013</a></li>
+            </ol>
+          </div>
+
+          <div class="p-3">
+            <h4 class="font-italic">Elsewhere</h4>
+            <ol class="list-unstyled">
+              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">GitHub</a></li>
+              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">Twitter</a></li>
+              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">Facebook</a></li>
+            </ol>
+          </div>
+        </aside><!-- /.blog-sidebar -->
+
+
+
 			</div>
 
 

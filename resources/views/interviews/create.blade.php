@@ -21,6 +21,11 @@
             </div>
 
             <div class="form-group">
+              <label for="interviewThumbnail">Interview Thumbnail</label>
+              <input type="text" class="form-control" name="interviewThumbnail" id="interviewThumbnail">
+            </div>
+
+            <div class="form-group">
               <label for="interviewText">Interview Text</label>
               <textarea name = "interviewText"  class="form-control" id="interviewText" rows="10" required></textarea>
             </div>

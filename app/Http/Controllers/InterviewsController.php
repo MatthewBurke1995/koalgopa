@@ -43,9 +43,12 @@ class InterviewsController extends Controller
       $author = $request->input('author');
       $interviewTitle = $request->input('interviewTitle');
       $interviewText = $request->input('interviewText');
+      //$fileName   = $request->input('interviewThumbnail');
+      $fileName = ($request->input('interviewThumbnail') ? 'img/interviews/'.$request->input('interviewThumbnail') : 'img/interview.svg');
+
 
       DB::table('interviews')->insert(
-        ['author' => $author, 'interviewTitle' => $interviewTitle, 'interviewText' => $interviewText]);
+        ['author' => $author, 'interviewTitle' => $interviewTitle, 'interviewText' => $interviewText, 'interviewThumbnail' => $fileName]);
 
         return redirect()->route('interviews');
 

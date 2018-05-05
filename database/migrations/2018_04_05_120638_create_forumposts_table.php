@@ -37,6 +37,8 @@ class CreateForumpostsTable extends Migration
             $table->unsignedInteger('postid');
             $table->string('name');
             $table->text('commentText');
+            $table->integer('parentid');
+
             $table->timestamp('commentCreatedTime')->useCurrent();
         });
 

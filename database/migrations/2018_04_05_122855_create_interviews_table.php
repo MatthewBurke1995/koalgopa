@@ -19,6 +19,7 @@ class CreateInterviewsTable extends Migration
           $table->string('author');
           $table->text('interviewText');
           $table->timestamp('interviewCreatedTime')->useCurrent();
+          $table->string('interviewThumbnail')->default('img/interview.svg');
         });
     }
 
