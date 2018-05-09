@@ -9,7 +9,7 @@
 				<div class="carousel-inner" role="listbox">
 					<div class="carousel-item active">
 						<div class="jumbotron p-3 p-md-5 text-white rounded bgimg darken-pseudo darken-with-text" style="background-image: url('/img/firstfleet.jpg')">
-							<div class="col-md-6 px-0">
+							<div class="col-lg-6 px-0">
 								<h1 class="display-4 font-weight-bold font-italic text-white">호주 처음이죠?</h1>
 								<p class="lead my-2">처음이라서 누구나 힘들지만 노하우 생기면 쉬워집니다 적응하도록 알면 좋은 팁이 가득한 사이트가 준비됐습니다</p>
 								<p class="lead mb-2"><a href="#about" class="text-white font-weight-bold">조금 더 알아보기...</a></p>
@@ -17,25 +17,18 @@
 						</div>
 					</div>
 					<div class="carousel-item">
-						<div class="jumbotron p-3 p-md-5 text-white rounded bgimg darken-pseudo darken-with-text" style="background-image: url('/img/kangaroo2.jpg')">
-							<div class="col-md-6 px-0">
-								<h1 class="display-4 font-weight-bold font-italic text-white">호주 처음이죠?</h1>
-								<p class="lead my-2">처음이라서 누구나 힘들지만 노하우 생기면 쉬워집니다 적응하도록 알면 좋은 팁이 가득한 사이트가 준비됐습니다</p>
-								<p class="lead mb-2"><a href="#about" class="text-white font-weight-bold">조금 더 알아보기...</a></p>
+						<div class="jumbotron p-3 p-md-5 text-white rounded bgimg darken-pseudo darken-with-text" style="background-image: url('/img/money.jpg')">
+							<div class="col-lg-6 px-0">
+								<h1 class="display-4 font-weight-bold font-italic text-white">최저시급 현실</h1>
+								<p class="lead my-2">연구 결과 따르면 한국인 워홀러들이 대부분 최저시습조차 못 받기엔 대체 어떤 조건이 영향을 끼치는가?</p>
+								<p class="lead mb-2"><a href="/news/1" class="text-white font-weight-bold">조금 더 알아보기...</a></p>
 							</div>
 						</div>
 
 					</div>
-					<div class="carousel-item">
-						<div class="jumbotron p-3 p-md-5 text-white rounded bgimg darken-pseudo darken-with-text" style="background-image: url('/img/firstfleet2.jpg')">
-							<div class="col-md-6 px-0">
-								<h1 class="display-4 font-weight-bold font-italic text-white">호주 처음이죠?</h1>
-								<p class="lead my-2">처음이라서 누구나 힘들지만 노하우 생기면 쉬워집니다 적응하도록 알면 좋은 팁이 가득한 사이트가 준비됐습니다</p>
-								<p class="lead mb-2"><a href="#about" class="text-white font-weight-bold">조금 더 알아보기...</a></p>
-							</div>
-						</div>
 
-					</div>
+
+
 				</div>
 				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -113,9 +106,6 @@
 							<a class="nav-link" id="pills-accomodation-tab" data-toggle="pill" href="#pills-accomodation" role="tab" aria-controls="pills-accomodation" aria-selected="false">숙소</a>
 						</li>
 						<li class="nav-item lead">
-							<a class="nav-link" id="pills-travel-tab" data-toggle="pill" href="#pills-travel" role="tab" aria-controls="pills-travel" aria-selected="false">여행</a>
-						</li>
-						<li class="nav-item lead">
 							<a class="nav-link" id="pills-visa-tab" data-toggle="pill" href="#pills-visa" role="tab" aria-controls="pills-visa" aria-selected="false">비자</a>
 						</li>
 
@@ -132,7 +122,7 @@
 							<qanda question="호주 사람들이랑 어떻게 놀 수 있나?" answer="AAAAAAAA"> </qanda>
 
 							<qanda question="한국 사람들이 많나?" answer="AAAAAAAA"> </qanda>
-							<qanda question="공기관 쓰고싶은데 영어 못 해서 어떡하나?" answer="AAAAAAAA"> </qanda>
+							<qanda question="공기관 쓰고싶은데 영어 못 해서 어떡하나?" answer="호주 공기관에서 translation hotline 있어서"> </qanda>
 
 
 
@@ -182,14 +172,6 @@
 
 						</div>
 
-						<div class="tab-pane fade" id="pills-travel" role="tabpanel" aria-labelledby="pills-travel-tab">
-
-							<qanda question="호주 영어 어렵나?" answer="여태까지 미국 영어만 들었던 사람한테 호주 영어의 발음이랑 단어 선택이 광장히 낯설 수도 있습니다. 또는 호주 사람들이 일반적으로 말을 빨리 하는 편이라서 가끔 . 그나마 큰 시티에서 사투리 심하지 않고 호주안에서 말하는 방식 표준화 되어있어서 어디 가든 똑같은 사투리 들을 수 있습니다."> </qanda>
-							<qanda question="호주 영어 어떻게 배워야할까??" answer="호주 영어 맞춰서 배울 필요 딱히 없는데 읽기랑 쓰기가 미국식이랑 똑같고 호주식으로 말할 필요 없지만 호주식 알아들어야해서 일반적으로 영어 잘하는 사람들이 듣기를 집중하는 게 좋을 것 같습니다."> </qanda>
-							<qanda question="호주에 속어 많은가?" answer="BBBBBB"> </qanda>
-							<qanda question="영어 못 하면 호주 갈 가치 있나?" answer="AAAAAAAA"> </qanda>
-
-						</div>
 
 						<div class="tab-pane fade" id="pills-visa" role="tabpanel" aria-labelledby="pills-visa-tab">
 
@@ -209,7 +191,7 @@
 				<aside class="col-md-3 blog-sidebar d-none d-md-block">
           <div class="p-3 mb-3 bg-white rounded">
             <h4 class="font-italic">About</h4>
-            <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <p class="mb-0">코알고파는 모든 한국인 워홀러들을 위한 커뮤니티입니다 </p>
           </div>
 
           <div class="p-3">

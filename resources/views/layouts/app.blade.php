@@ -24,7 +24,7 @@
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Koreansite') }}
+                    {{ config('app.name', '코알고파') }}
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -40,14 +40,14 @@
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
 
-                        <li><a class="nav-link" href="{{ route('welcome') }}">{{ __('Home') }}</a></li>
-                        <li><a class="nav-link" href="{{ route('news') }}">{{ __('News') }}</a></li>
-                        <li><a class="nav-link" href="{{ route('interviews') }}">{{ __('Interviews') }}</a></li>
-                        <li><a class="nav-link" href="{{ route('forum') }}">{{ __('Forum') }}</a></li>
+                        <li><a class="nav-link" href="{{ route('welcome') }}">{{ __('홈') }}</a></li>
+                        <li><a class="nav-link" href="{{ route('news') }}">{{ __('기사') }}</a></li>
+                        <li><a class="nav-link" href="{{ route('interviews') }}">{{ __('인터뷰') }}</a></li>
+                        <li><a class="nav-link" href="{{ route('forum') }}">{{ __('게시판') }}</a></li>
 
                         @guest
-                            <li><a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a></li>
-                            <li><a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a></li>
+                            <li><a class="nav-link" href="{{ route('login') }}">{{ __('로그인') }}</a></li>
+                            <li><a class="nav-link" href="{{ route('register') }}">{{ __('계좌 만들기') }}</a></li>
 
                         @else
                             <li class="nav-item dropdown">
@@ -56,12 +56,12 @@
                                 </a>
 
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                  <a class="dropdown-item" href="{{ route('user') }}"> {{ __('Profile') }} </a>
+                                  <a class="dropdown-item" href="{{ route('user') }}"> {{ __('프로필') }} </a>
 
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
+                                        {{ __('로그아웃') }}
                                     </a>
 
 

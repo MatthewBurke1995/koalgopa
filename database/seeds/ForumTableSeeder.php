@@ -12,32 +12,12 @@ class ForumTableSeeder extends Seeder
     public function run()
     {
       DB::table('forumposts')->insert([
-        'postTitle' => "첫번째 포스트",
-        'postText' => "SEOUL, May 2 (Yonhap) -- Police said Wednesday they have summoned a ruling party lawmaker for questioning later this week over alleged involvement in a massive rigging of Internet comments in news articles about President Moon Jae-in.
+        'postTitle' => "게시판 매너",
+        'postText' => "코알고파 계시판에 환영합니다. 지금 보는 계시판 하나밖에 없는 자유 계시판입니다. 여기선 마음대로 자유롭게 얘기 할 수 있지만 단지 불법 자료를 올리지말고 댓글 달 때 좋은 마음으로 달았으면 좋겠습니다.
 
-Rep. Kim Kyoung-soo of the Democratic Party has been asked to appear for an interrogation on Friday, the Seoul Metropolitan Police Agency said.
-
-Kim, a close aide of the president, is at the center of a ballooning scandal involving an influential power blogger who has been arrested and charged over manipulating Internet comments using a computer program early this year.
-
-
-        아무말대잔치 아무말대잔치
-        https://www.naver.com/
-        <script> alert('ALERT') </script>",
+참고로 사이트 아직은 베타 단계라서 콘텐츠 아이디어 혹은 충고 있으시면 저한테 연락하세요. 이메일 페이지 밑부분에 써있습니다.",
         'name' => "Matthew",
         ]);
-
-
-        DB::table('forumposts')->insert([
-          'postTitle' => "Second post",
-          'postText' => "SEOUL, May 2 (Yonhap) -- Police said Wednesday they have summoned a ruling party lawmaker for questioning later this week over alleged involvement in a massive rigging of Internet comments in news articles about President Moon Jae-in.
-
-Rep. Kim Kyoung-soo of the Democratic Party has been asked to appear for an interrogation on Friday, the Seoul Metropolitan Police Agency said.
-
-Kim, a close aide of the president, is at the center of a ballooning scandal involving an influential power blogger who has been arrested and charged over manipulating Internet comments using a computer program early this year.
-
-",
-          'name' => "Matthew",
-          ]);
 
 
 

@@ -17,7 +17,7 @@ class InterviewsController extends Controller
 
     public function show($id) {
 
-      $interview = DB::table('interviews')->where('interviewid',$id)->first();
+      $interview = DB::table('interviews')->select('interviewid', 'interviewTitle', 'author', 'interviewText', 'interviewCreatedTime')->where('interviewid',$id)->first();
 
       return view('interviews.show', ['interview' => $interview ]);
 
