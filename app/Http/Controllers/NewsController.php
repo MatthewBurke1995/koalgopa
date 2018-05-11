@@ -10,10 +10,10 @@ class NewsController extends Controller
 {
     public function index() {
       $articles = DB::table('articles')->orderBy('articleCreatedTime', 'desc')->get();
+      $headlines = DB::table('headlines')->orderBy('headlineid','desc')->limit(5)->get();
 
-      return view('news.index', ['articles' => $articles]);
+      return view('news.index', ['articles' => $articles, 'headlines' =>$headlines]);
 
-      //return view('news', ['articles'=>$articles]);
       }
 
     public function show($id) {

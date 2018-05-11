@@ -36,6 +36,7 @@ Route::get('forum/create', 'ForumController@create')->name('forum.create');
 Route::post('forum/store', 'ForumController@store')->name('forum.store');
 Route::post('forum/commentStore', 'ForumController@commentStore')->name('forum.commentStore');
 
+
 Route::get('user', 'UserController@index')->name('user');
 Route::get('user/{id}', 'UserController@show')->name('user.show');
 

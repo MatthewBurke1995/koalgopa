@@ -162,7 +162,7 @@
 
 						<div class="tab-pane fade" id="pills-accomodation" role="tabpanel" aria-labelledby="pills-accomodation-tab">
 
-							<qanda question="숙소 얼마나 비싸?" answer="."> </qanda>
+							<qanda question="숙소 얼마나 비싸?" answer="시드니에 숙소는 서울보다 더 비쌉니다. 서울에서 지낼만한 원룸 잡으면 한달에 35만원 내는데 시드니에 그정도 싸게 살고 싶다면 셰어 할 수 밖에 없습니다."> </qanda>
 							<qanda question="제일 안전한 지역 어딘가?" answer="호주 영어 맞춰서 배울 필요 딱히 없는데 읽기랑 쓰기가 미국식이랑 똑같고 호주식으로 말할 필요 없지만 호주식 알아들어야해서 일반적으로 영어 잘하는 사람들이 듣기를 집중하는 게 좋을 것 같습니다."> </qanda>
 							<qanda question="집을 찾을 때 뭘 알아봐야된가?" answer="AAAAAAAA."> </qanda>
 							<qanda question="대중교통 잘 되어있나?" answer="BBBBB."> </qanda>
@@ -194,23 +194,6 @@
             <p class="mb-0">코알고파는 모든 한국인 워홀러들을 위한 커뮤니티입니다 </p>
           </div>
 
-          <div class="p-3">
-            <h4 class="font-italic">Archives</h4>
-            <ol class="list-unstyled mb-0">
-              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">March 2014</a></li>
-              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">February 2014</a></li>
-              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">January 2014</a></li>
-              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">December 2013</a></li>
-              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">November 2013</a></li>
-              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">October 2013</a></li>
-              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">September 2013</a></li>
-              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">August 2013</a></li>
-              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">July 2013</a></li>
-              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">June 2013</a></li>
-              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">May 2013</a></li>
-              <li><a href="https://getbootstrap.com/docs/4.0/examples/blog/#">April 2013</a></li>
-            </ol>
-          </div>
 
           <div class="p-3">
             <h4 class="font-italic">Elsewhere</h4>
