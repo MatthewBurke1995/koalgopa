@@ -116,13 +116,9 @@
 							<qanda question="호주 영어 어렵나?" answer="여태까지 미국 영어만 들었던 사람한테 호주 영어의 발음이랑 단어 선택이 광장히 낯설 수도 있습니다. 또는 호주 사람들이 일반적으로 말을 빨리 하는 편이라서 가끔 영어 게시판에 호주 영상 뜬다면 미국인들이 자막 부탁해달라는 경우 종종 있습니다. 그나마 큰 시티에서 사투리 심하지 않습니다 덧붙이자면 미국이랑 다르게 호주안에서 말하는 방식 표준화 되어있어서 어디 가든 똑같은 사투리 들을 수 있	습니다"> </qanda>
 							<qanda question="호주 영어 어떻게 배워야할까??" answer="호주 영어 맞춰서 배울 필요 딱히 없는데 읽기랑 쓰기가 미국식이랑 똑같고 호주식으로 말할 필요 없지만 호주식 알아들어야해서 일반적으로 영어 잘하는 사람들이 듣기를 집중하는 게 좋을 것 같습니다"> </qanda>
 							<qanda question="호주에 속어 많은가?" answer="<a href='https://i.imgur.com/Gw3xBBE.gifv'> 호주는 속어 많다는 걸 다른 영어권 나라도 인정 합니다. </a> 호주에서 거의 모든 속어는 줄임말이라서 처음에 알아듣지 못 해도 한번 알게 되면 기억 하기 쉽습니다."> </qanda>
-							<qanda question="영어 못 하면 호주 갈 가치 있나?" answer="AAAAAAAA"> </qanda>
-							<qanda question="솔직하게 말해줘 영어 잘 하면 확실히 뭐가 좋나?" answer="AAAAAAAA"> </qanda>
 							<qanda question="호주에 있을 때 어떻게 해야 영어가 늘 수 있을까?" answer="AAAAAAAA"> </qanda>
-							<qanda question="호주 사람들이랑 어떻게 놀 수 있나?" answer="AAAAAAAA"> </qanda>
-
-							<qanda question="한국 사람들이 많나?" answer="AAAAAAAA"> </qanda>
-							<qanda question="공기관 쓰고싶은데 영어 못 해서 어떡하나?" answer="호주 공기관에서 translation hotline 있어서"> </qanda>
+							<qanda question="호주 사람들이랑 어떻게 놀 수 있나?" answer="호주 와서 호주사람이랑 놀기 은근히 어려워할 수도 있습니다. 그래도 meetup.com이라는 사이트에서 같은 관심 가진 사람들을 만날 수 있습니다. 패턴 크게 봤을 때 언어교환, 스포츠, 전문지식은 meetup 3가지 있습니다 그중에 관심 가는 분야 있으면 meetup을 갈만합니다 모일 때에는 사람 많아서 보통 새로운 사람도 많고 나름대로 어울리기 편합니다.  "> </qanda>
+							<qanda question="한국 사람들이 많나?" answer="호주 와서 조심하지 않으면 영어 말고 한국어 늘 수도 있습니다. 특별히 North-Western 호선에 (예를 들어서 Epping, Eastwood, West Ryde, Rhodes, Strathfield) 한국인들이 많습니다."> </qanda>
 
 
 
@@ -132,16 +128,14 @@
 
 						<div class="tab-pane fade" id="pills-culture" role="tabpanel" aria-labelledby="pills-culture-tab">
 
-							<qanda question="인종차별 심해?" answer="여태까지 미국 영어만 들었던 사람한테 호주 영어의 발음이랑 단어 선택이 광장히 낯설 수도 있습니다. 또는 호주 사람들이 일반적으로 말을 빨리 하는 편이라서 가끔 . 그나마 큰 시티에서 사투리 심하지 않고 호주안에서 말하는 방식 표준화 되어있어서 어디 가든 똑같은 사투리 들을 수 있습니다."> </qanda>
+							<qanda question="인종차별 심해?" answer="언제나 그렇듯이 나아지고 있지만 인종차별이 여전히 존재하고 있습니다. 지난해에 호주인 20프로 정도 인종차별 당했습니다. <a href='https://www.westernsydney.edu.au/__data/assets/pdf_file/0009/1201203/OMAC1694_Challenging_Racism_Report_4_-_FINAL.pdf'> 북동아시아에서 오는 사람들이 특별히 인종차별을 많이 당하기도 합니다 </a>. 	"> </qanda>
 							<qanda question="원주민 혹은 흑인이 왜 안 보이나?" answer="."> </qanda>
 							<qanda question="문화 특점 있나?" answer="호주 영어 맞춰서 배울 필요 딱히 없는데 읽기랑 쓰기가 미국식이랑 똑같고 호주식으로 말할 필요 없지만 호주식 알아들어야해서 일반적으로 영어 잘하는 사람들이 듣기를 집중하는 게 좋을 것 같습니다."> </qanda>
-							<qanda question="아시아 사람에 대해 어떻게 생각하나?" answer="호주 영어 맞춰서 배울 필요 딱히 없는데 읽기랑 쓰기가 미국식이랑 똑같고 호주식으로 말할 필요 없지만 호주식 알아들어야해서 일반적으로 영어 잘하는 사람들이 듣기를 집중하는 게 좋을 것 같습니다."> </qanda>
 							<qanda question="한국 사람에 대해 어떻게 생각하나?" answer="호주 영어 맞춰서 배울 필요 딱히 없는데 읽기랑 쓰기가 미국식이랑 똑같고 호주식으로 말할 필요 없지만 호주식 알아들어야해서 일반적으로 영어 잘하는 사람들이 듣기를 집중하는 게 좋을 것 같습니다."> </qanda>
 							<qanda question="호주 사람들이 어떻게 놀아?" answer="호주 영어 맞춰서 배울 필요 딱히 없는데 읽기랑 쓰기가 미국식이랑 똑같고 호주식으로 말할 필요 없지만 호주식 알아들어야해서 일반적으로 영어 잘하는 사람들이 듣기를 집중하는 게 좋을 것 같습니다."> </qanda>
-							<qanda question="평범한 호주 사람 어떻게 생겼나?" answer="호주 영어 맞춰서 배울 필요 딱히 없는데 읽기랑 쓰기가 미국식이랑 똑같고 호주식으로 말할 필요 없지만 호주식 알아들어야해서 일반적으로 영어 잘하는 사람들이 듣기를 집중하는 게 좋을 것 같습니다."> </qanda>
 							<qanda question="지금 정치 상황 어떻게 되고 있나?" answer="호주 영어 맞춰서 배울 필요 딱히 없는데 읽기랑 쓰기가 미국식이랑 똑같고 호주식으로 말할 필요 없지만 호주식 알아들어야해서 일반적으로 영어 잘하는 사람들이 듣기를 집중하는 게 좋을 것 같습니다."> </qanda>
-							<qanda question="제일 인기 많은 스포츠 뭣인가?" answer="호주 영어 맞춰서 배울 필요 딱히 없는데 읽기랑 쓰기가 미국식이랑 똑같고 호주식으로 말할 필요 없지만 호주식 알아들어야해서 일반적으로 영어 잘하는 사람들이 듣기를 집중하는 게 좋을 것 같습니다."> </qanda>
-							<qanda question="다들 마약한가?" answer="호주 영어 맞춰서 배울 필요 딱히 없는데 읽기랑 쓰기가 미국식이랑 똑같고 호주식으로 말할 필요 없지만 호주식 알아들어야해서 일반적으로 영어 잘하는 사람들이 듣기를 집중하는 게 좋을 것 같습니다."> </qanda>
+							<qanda question="제일 인기 많은 스포츠 뭣인가?" answer="."> </qanda>
+							<qanda question="다들 마약한가?" answer="<a href='http://nceta.flinders.edu.au/files/8212/6317/9671/EN404.pdf'>호주인 40% 정도 마약해본 적 있습니다.</a> 압도적으로 제일 인기 많은 마약은 대마초입니다 왠만하면 20대 호주인들이 대마초 찾으려면 어떻게 찾는지 알고 있겠습니다."> </qanda>
 
 
 						</div>
@@ -162,8 +156,8 @@
 
 						<div class="tab-pane fade" id="pills-accomodation" role="tabpanel" aria-labelledby="pills-accomodation-tab">
 
-							<qanda question="숙소 얼마나 비싸?" answer="시드니에 숙소는 서울보다 더 비쌉니다. 서울에서 지낼만한 원룸 잡으면 한달에 35만원 내는데 시드니에 그정도 싸게 살고 싶다면 셰어 할 수 밖에 없습니다."> </qanda>
-							<qanda question="제일 안전한 지역 어딘가?" answer="호주 영어 맞춰서 배울 필요 딱히 없는데 읽기랑 쓰기가 미국식이랑 똑같고 호주식으로 말할 필요 없지만 호주식 알아들어야해서 일반적으로 영어 잘하는 사람들이 듣기를 집중하는 게 좋을 것 같습니다."> </qanda>
+							<qanda question="숙소 얼마나 비싸?" answer="시드니에 숙소는 서울보다 더 비쌉니다. 숙소 어딘지 잡느냐 따라서 다르겠지만 일주일에 따지면 2인용은 기본적으로 150불이고 1인용 기본적으로 250불이라고 생각하시면 됩니다."> </qanda>
+							<qanda question="제일 안전한 지역 어딘가?" answer=" ."> </qanda>
 							<qanda question="집을 찾을 때 뭘 알아봐야된가?" answer="AAAAAAAA."> </qanda>
 							<qanda question="대중교통 잘 되어있나?" answer="BBBBB."> </qanda>
 							<qanda question="집 어떻게 찾을 수 있나?" answer="AAAAAAAA."> </qanda>
