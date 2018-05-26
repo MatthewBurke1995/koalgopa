@@ -19,8 +19,8 @@ class CreateCompanyReviewsTable extends Migration
             $table->integer('companyreviewStars');
             $table->text('companyreviewPros');
             $table->text('companyreviewCons');
-            $table->text('companyreviewComment');
-            $table->integer('companyreviewWage');
+            $table->string('companyreviewComment', 255)->nullable()->default('없음');
+            $table->integer('companyreviewWage')->nullable();
             $table->timestamp('companyreviewCreatedTime')->useCurrent();
         });
     }

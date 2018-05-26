@@ -6,18 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-2198864974411745",
-        enable_page_level_ads: true
-      });
-    </script>
+    @yield('preload')
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }} - 호주 지식 커뮤니티</title>
+    <title>{{ config('app.name', 'Koalgopa') }} - 호주 지식 커뮤니티</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -49,10 +43,11 @@
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
 
-                        <li><a class="nav-link" href="{{ route('welcome') }}">{{ __('홈') }}</a></li>
-                        <li><a class="nav-link" href="{{ route('news') }}">{{ __('기사') }}</a></li>
-                        <li><a class="nav-link" href="{{ route('interviews') }}">{{ __('인터뷰') }}</a></li>
-                        <li><a class="nav-link" href="{{ route('forum') }}">{{ __('게시판') }}</a></li>
+                        <li> <a class="nav-link" href="{{ route('welcome') }}">{{ __('홈') }}</a></li>
+                        <li> <a class="nav-link" href="{{ route('news') }}">{{ __('기사') }}</a></li>
+                        <li> <a class="nav-link" href="{{ route('interviews') }}">{{ __('인터뷰') }}</a></li>
+                        <li> <a class="nav-link" href="{{ route('company') }}">{{ __('회사 후기') }} </a></li>
+                        <li> <a class="nav-link" href="{{ route('forum') }}">{{ __('게시판') }}</a></li>
 
                         @guest
                             <li><a class="nav-link" href="{{ route('login') }}">{{ __('로그인') }}</a></li>
@@ -104,17 +99,15 @@
 
           <!--First column-->
             <div class="col-sm-6 d-none d-sm-block">
-                <p>'코알고파'는 코알라랑 알고파라는 단어 합치는 말입니다. 이사이트는 한인 워홀러들 위한 지식 커뮤니티 공간입니다.</p>
-                <p>  호주 오는 워홀러들이 호주 워홀 단점 피하고 장점 향상 시킬 수 있다면 좋겠다는 마음에 만든 사이트라서 여기서 잘 못 된 정보 있으시면 바로 이메일로
-                연락해주시길 바랍니다. </p>
+                <p>  호주 오는 워홀러들이 호주 워홀 단점 피하고 장점 향상 살릴 수 있다면 좋겠다는 마음에 만든 사이트라서 모두 다 호의적인 태도 갖고 이득적인 정보 나눴으면 좋겠습니다 </p>
           </div>
           <!--/.First column-->
 
 
           <!--Second column-->
           <div class="col-sm-6 mx-auto">
-              <p>Contact: {{config('mail.username')}}</p>
-              <p>The contents of this webpage are copyright © {{date("Y")}} {{config('app.name', 'Koreansite')}}. </p>
+              <p>Contact: {{config('mail.username')}} <br>
+              The contents of this webpage are copyright © {{date("Y")}} {{config('app.name', 'Koreansite')}}. </p>
 
           </div>
           <!--/.Second column-->

@@ -9,7 +9,8 @@ $fresh-link-colour: #0000EE;
 $hover-link-colour: #EE0000;
 $visited-link-colour: #551A8B;
 
-
+$primary: #2ba825;
+$success: #448cff;
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
@@ -50,7 +51,8 @@ $visited-link-colour: #551A8B;
   z-index: 1;
 }
 
-a { color:$fresh-link-colour; }
+a { color:$fresh-link-colour; 
+    font-weight: bold;}
 a:hover { color:$hover-link-colour; }
 a:visited { color: $visited-link-colour ; }
 
@@ -74,7 +76,10 @@ html {
 body {
   /* Margin bottom by footer height */
     padding-bottom: 200px;
+
 }
+
+
 
 .footer {
   position: absolute;

@@ -26,6 +26,13 @@ Route::get('interviews/{id}', 'InterviewsController@show')->name('interviews.sho
 Route::get('interviews/create', 'InterviewsController@create')->name('interviews.create');
 Route::post('interviews/store', 'InterviewsController@store')->name('interviews.store');
 
+Route::get('company', 'CompanyController@index')->name('company');
+Route::get('company/create', 'CompanyController@create')->name('company.create');
+Route::get('company/{id}', 'CompanyController@show')->name('company.show')->where('id', '[0-9]+');
+Route::get('company/{id}/createreview', 'CompanyController@createreview')->name('company.createreview');
+Route::post('company/store', 'CompanyController@store')->name('company.store');
+Route::get('company/thanks', 'CompanyController@thanks')->name('company.thanks');
+
 
 
 //forum routes

@@ -23,6 +23,9 @@ Vue.component('qanda', require('./components/Qanda.vue'));
 Vue.component('forumpost', require('./components/forumpost.vue'));
 Vue.component('comment', require('./components/comment.vue'));
 
+Vue.component('stars', require('./components/stars.vue'));
+
+Vue.component('autocomplete',require('./components/Autocomplete.vue'));
 
 
 const app = new Vue({

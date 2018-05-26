@@ -11,12 +11,6 @@ class ForumController extends Controller
 
     public function index() {
 
-      $posts = DB::select('SELECT f.postTitle, f.name, f.postCreatedTime, f.postid, COUNT(c.commentid) AS commentsCount
-                          FROM forumposts AS f
-                          JOIN comments AS c ON f.postid = c.postid
-                          GROUP BY postid
-                          ORDER BY postid DESC');
-
 
     $posts = DB::table('forumposts')
         ->leftJoin('comments', 'forumposts.postid', '=', 'comments.postid')
@@ -24,12 +18,6 @@ class ForumController extends Controller
         ->select('forumposts.postTitle', 'forumposts.name', 'forumposts.postCreatedTime', 'forumposts.postid', DB::raw('COUNT(comments.commentid) as commentsCount'))
         ->orderBy('forumposts.postCreatedTime', 'desc')
         ->paginate(8);
-
-/*
-    $posts = DB::table('forumposts')
-        ->select('forumposts.postTitle', 'forumposts.name', 'forumposts.postCreatedTime', 'forumposts.postid')
-        ->paginate(2);
-*/
 
 
       $new_comments = DB::select('SELECT f.postid, f.postTitle, MAX(c.commentCreatedTime) as commentCreatedTime
@@ -48,7 +36,6 @@ class ForumController extends Controller
       $comments = DB::table('comments')->where('postid', $id)->get();
       $start = microtime(true);
       $comments = comment_sort($comments);
-      //return var_dump(grab_children(NULL, 0 ,$comments));
       return view('forum.show', ['post'=>$post, 'comments'=>$comments]);
     }
 
@@ -60,13 +47,11 @@ class ForumController extends Controller
 
       }  else {
         return redirect()->route('login');
-
       }
     }
 
     public function store(Request $request)
     {
-      // FINISH ME!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
       $postTitle = $request->input('postTitle');
       $postText = $request->input('postText');
       $name = Auth::user()->name;
@@ -79,7 +64,6 @@ class ForumController extends Controller
 
     public function commentStore(Request $request)
     {
-      // FINISH ME!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
       $commentText = $request->input('commentText');
 

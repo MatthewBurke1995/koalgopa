@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +16,11 @@ use Illuminate\Http\Request;
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
+});
+
+Route::get('/search',function(Request $request){
+ $query = $request->input('query');
+
+ $companies = DB::table('companies')->select('companyid', 'companyTitle')->where('companyTitle','like','%'.$query.'%')->get();
+ return response()->json($companies);
 });

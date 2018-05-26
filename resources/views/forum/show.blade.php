@@ -34,7 +34,7 @@
 										<input name="postid" type="hidden" value="{{$post->postid}}">
 
 									</div>
-									<button type="submit" class="btn btn-default">Submit</button>
+									<button type="submit" class="btn btn-success">Submit</button>
 								</div>
 								</form>
 
@@ -63,7 +63,7 @@
 									<input name="parentid" type="hidden" value="0">
 
 								</div>
-								<button type="submit" class="btn btn-default">Submit</button>
+								<button type="submit" class="btn btn-primary">Submit</button>
 
 							</form>
 
