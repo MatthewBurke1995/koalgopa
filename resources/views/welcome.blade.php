@@ -13,8 +13,21 @@
 
 			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner" role="listbox">
+
 					<div class="carousel-item active">
-						<div class="jumbotron p-3 p-md-5 text-white rounded bgimg darken-pseudo darken-with-text" style="background-image: url('/img/firstfleet.jpg')">
+						<div class="jumbotron p-3 p-md-5 text-white rounded bgimg darken-pseudo darken-with-text" style="background-image: url('/img/gradient_background.jpg')">
+							<div class="col-lg-6 px-0">
+								<h1 class="display-4 font-weight-bold font-italic text-white"><a href="#about" class="text-white">회사후기 검색</a></h1>
+								<p class="lead my-2">처음이라서 누구나 힘들지만 노하우 생기면 쉬워집니다 적응하도록 알면 좋은 팁이 가득한 사이트가 준비됐습니다</p>
+								<p class="lead mb-0"><autocomplete></autocomplete></p>
+							</div>
+						</div>
+					</div>
+
+
+
+					<div class="carousel-item">
+						<div class="jumbotron p-3  p-md-5 text-white rounded bgimg darken-pseudo darken-with-text" style="background-image: url('/img/firstfleet.jpg')">
 							<div class="col-lg-6 px-0">
 								<h1 class="display-4 font-weight-bold font-italic text-white"><a href="#about" class="text-white">호주 처음이죠?</a></h1>
 								<p class="lead my-2">처음이라서 누구나 힘들지만 노하우 생기면 쉬워집니다 적응하도록 알면 좋은 팁이 가득한 사이트가 준비됐습니다</p>
@@ -22,6 +35,8 @@
 							</div>
 						</div>
 					</div>
+
+
 					<div class="carousel-item">
 						<div class="jumbotron p-3 p-md-5 text-white rounded bgimg darken-pseudo darken-with-text" style="background-image: url('/img/money.jpg')">
 							<div class="col-lg-6 px-0">
@@ -48,14 +63,6 @@
 		</div>
 	</div>
 
-	<div class="row">
-		<div class="col-md-12">
-			<div class="mb-1">
-         <autocomplete></autocomplete>
-      </div>
-
-		</div>
-	</div>
 
 
 			<div class="row mb-2">
