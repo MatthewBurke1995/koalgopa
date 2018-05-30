@@ -1,8 +1,8 @@
 <template>
- <div class="form-group row">
+ <div class="form-group row justify-content-center">
 
 
-  <div class="col-md-12">
+  <div class="col-sm-10">
     <form class="navbar-form" role="search" action="/company">
       <div class="input-group add-on">
         <input class="form-control" placeholder="영어로 회사 검색해보세요" name="search" id="search" type="text" v-model="query" v-on:keyup="autoComplete" autocomplete="off" value="">
@@ -15,7 +15,7 @@
        </div>
       </div>
 
-  <div class="panel-footer" v-if="results.length"style="position: absolute; width:95%; z-index: 999;">
+  <div class="panel-footer" v-if="results.length"style="position: absolute; width:90%; z-index: 999;">
    <ul class="list-group" >
     <li class="list-group-item" v-for="result in results" >
      <a :href="'/company?search='+ result.companyTitle">{{ result.companyTitle }}</a>

@@ -48043,8 +48043,8 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "form-group row" }, [
-    _c("div", { staticClass: "col-md-12" }, [
+  return _c("div", { staticClass: "form-group row justify-content-center" }, [
+    _c("div", { staticClass: "col-sm-10" }, [
       _c(
         "form",
         {
@@ -48093,7 +48093,7 @@ var render = function() {
                   staticClass: "panel-footer",
                   staticStyle: {
                     position: "absolute",
-                    width: "95%",
+                    width: "90%",
                     "z-index": "999"
                   }
                 },

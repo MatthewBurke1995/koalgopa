@@ -15,11 +15,13 @@
 				<div class="carousel-inner" role="listbox">
 
 					<div class="carousel-item active">
+						<div class="col-lg-3"></div>
+
 						<div class="jumbotron p-3 p-md-5 text-white rounded bgimg darken-pseudo darken-with-text" style="background-image: url('/img/gradient_background.jpg')">
-							<div class="col-lg-6 px-0">
+							<div class="col-lg-6 offset-lg-1 px-4">
 								<h1 class="display-4 font-weight-bold font-italic text-white"><a href=/company class="text-white">회사후기 검색</a></h1>
 								<p class="lead my-2">궁금하면 알아보고 잘 알면 알려주고 회사후기 참여하면 할수록 직장 문화 더 좋아지고 망쳐야하는 회사 망칩니다</p>
-								<p class="lead mb-0"><autocomplete></autocomplete></p>
+								<p align="center"><autocomplete></autocomplete></p>
 							</div>
 						</div>
 					</div>
@@ -150,8 +152,8 @@
 							<qanda question="인종차별 심해?" answer="언제나 그렇듯이 나아지고 있지만 인종차별이 여전히 존재하고 있습니다. 지난해에 호주인 20프로 정도 인종차별 당했습니다. <a href='https://www.westernsydney.edu.au/__data/assets/pdf_file/0009/1201203/OMAC1694_Challenging_Racism_Report_4_-_FINAL.pdf'> 북동아시아에서 오는 사람들이 특별히 인종차별을 많이 당하기도 합니다 </a>. 	"> </qanda>
 							<qanda question="문화 특점 있나?" answer="호주 영어 맞춰서 배울 필요 딱히 없는데 읽기랑 쓰기가 미국식이랑 똑같고 호주식으로 말할 필요 없지만 호주식 알아들어야해서 일반적으로 영어 잘하는 사람들이 듣기를 집중하는 게 좋을 것 같습니다."> </qanda>
 							<qanda question="한국 사람에 대해 어떻게 생각하나?" answer="호주 사람 대부분 한국 사람을 대해 아예 생각하지 않습니다 만약 한국에 대한 의식 있으시면 김치, 김정은, Psy 정도 알 수 있습니다. 또 다르게 표현하자면 한국에서 호주 뉴스 나올만큼 호주에서 한국 뉴스 나옵니다."> </qanda>
-							<qanda question="호주 사람들이 어떻게 놀아?" answer=""> </qanda>
-							<qanda question="지금 정치 상황 어떻게 되고 있나?" answer=" "> </qanda>
+							<qanda question="호주 사람들이 어떻게 놀아?" answer="없음."> </qanda>
+							<qanda question="지금 정치 상황 어떻게 되고 있나?" answer="없음."> </qanda>
 
 
 						</div>
@@ -168,7 +170,7 @@
 
 
 							   "> </qanda>
-							<qanda question="농장에서 일하기 싫은데 ㅠㅠ?" answer="BBBBB."> </qanda>
+							<qanda question="농장에서 일하기 싫은데 ㅠㅠ?" answer="<p>워홀러 커뮤니티에는 호주 농장에 대해 안 좋은 얘기 많이 나왔습니다 농장에 갈거라면 혼자 가지 말고 <a href='https://www.88daysandcounting.com/'> 8888daysandcounting</a>에서 괜찮은 농장 알아보세요</p> "> </qanda>
 							<qanda question="일할 때 손해 보면 어떻게 해야할까?" answer="고용인을 신고하면 비자 취소가 될까봐 걱정 하시는 사람 종종 있지만 워홀러들이 그런 걱정을 절대 안 하셔도 됩니다 오히려는 워킹 비자로 오는 사람들이 고용인을 신고 해도 비자가 취소 되지 않을 거란 보장 받을 수 있습니다 호주의 법 체제는 잘 되어 있어서 손해 봤으면 Fairworks Ombudsman한테 신고 할 수 있습니다 더 자세한 법적인 내용 알고싶다면 변호사랑 얘기 하는 게 제일 좋습니다"> </qanda>
 
 							<qanda question="호주에서 일하는 문화 어떤가?" answer="어떤 일하는냐 따라서 다르겠지만 큰 그림에 한국이랑 비교적으로 훨씬 더 여유롭다는 걸 생각하면 됩니다. 일단 호주에서 직장인들이 아침 9시부터 오후 5시까지만 일합니다 풀타임이랑 파트타임이랑 casual을 일 종류 3가지로 크게 구분할 수 있습니다 어떤 일 하는냐 따라서 베네핏도 받을 수 있습니다"> </qanda>
@@ -177,13 +179,13 @@
 
 						<div class="tab-pane fade" id="pills-accomodation" role="tabpanel" aria-labelledby="pills-accomodation-tab">
 
-							<qanda question="숙소 얼마나 비싸?" answer="시드니에 숙소는 서울보다 더 비쌉니다. 숙소 어딘지 잡느냐 따라서 다르겠지만 일주일에 따지면 2인용은 기본적으로 150불이고 1인용 기본적으로 250불이라고 생각하시면 됩니다."> </qanda>
-							<qanda question="제일 안전한 지역 어딘가?" answer=""> </qanda>
-							<qanda question="집을 찾을 때 뭘 알아봐야된가?" answer="AAAAAAAA."> </qanda>
-							<qanda question="대중교통 잘 되어있나?" answer="대중교통은 시드니보다 서울에서 훨씬 잘 되는 편 입니/다. 기차는 평소에 15분마다 오는데 언제 타느냐 얼마나 멀리 가느냐 따라서 요금 달라져 싸면 $2.42 들고 비싸면 $4.94 들겠습니다"> </qanda>
-							<qanda question="집 어떻게 찾을 수 있나?" answer="AAAAAAAA."> </qand>
-							<qanda question="호주 사람 다 집에서 살나?" answer="BBBBB."> </qanda>
-							<qanda question="집주인 관리 안 하면 어떻게 하나?" answer="BBBBB."> </qanda>
+							<qanda question="숙소 얼마나 비싸?" answer="시드니에 숙소는 서울보다 더 비쌉니다. 숙소 어딘지 잡느냐 따라서 다르겠지만 1인용이고 위치 좋고 시설 좋다면 250불 쉽게 넘어갈 수 있습니다"> </qanda>
+							<qanda question="제일 안전한 지역 어딘가?" answer="호주는 안전하지만 한국이랑 비교하면 좀 위험한다고 생각할 수 있습니다 왠만하면 범죄율 제일 높은 곳만 피하면 되겠습니다 더 자세히 알고 싶다면 <a href='http://crimetool.bocsar.nsw.gov.au/bocsar/'>지도 온라인 툴</a> 한 번 쓰시는 걸 추천합니다"> </qanda>
+							<qanda question="집을 찾을 때 뭘 알아봐야된가?" answer="호주 사람들이 꽤 흩어지게 살아서 대중교통 저급스럽고 시드니라는 지역은 서울이라는 지역보다 거의 20배 더 큽니다 그러므로 숙소 찾을 때 작전 짜고 위치나 대중교통 좋은 지역부터 알아보는 게 좋습니다 "> </qanda>
+							<qanda question="대중교통 잘 되어있나?" answer="시드니보다 서울에는 대중교통이 훨씬 잘 되는 편 입니다. 기차는 평소에 15분마다 오는데 언제 타느냐 얼마나 멀리 가느냐 따라서 요금 달라져 싸면 $2.42 들고 비싸면 $4.94 들겠습니다"> </qanda>
+							<qanda question="집 어떻게 찾을 수 있나?" answer="없음."> </qanda>
+							<qanda question="호주 사람 다 집에서 살나?" answer="없음."> </qanda>
+							<qanda question="집주인 관리 안 하면 어떻게 하나?" answer="없음."> </qanda>
 
 						</div>
 
