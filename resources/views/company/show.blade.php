@@ -1,6 +1,10 @@
 @extends('layouts.app')
 
 @section('preload')
+
+<title>코알고파 | {{$company->companyTitle}} 회사 후기</title>
+<meta name="description" content="호주에 있는 회사 검색하고 직원 후기 통해서 최신 정보 얻어서 더 좋은 워홀 생활 합시다">
+<meta name="keywords" content="워홀, 워홀러, 호주, 회사, 후기, 검색, {{$company->companyTitle}}">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 @endsection

@@ -1,5 +1,11 @@
 @extends('layouts.app')
 
+@section('preload')
+<title>코알고파 | 인터뷰 - {{ $interview->interviewTitle }} </title>
+<meta name="keywords" content="워홀, 워홀러, 호주, 인터뷰">
+@endsection
+
+
 @section('content')
 <div class="container">
     <div class="row justify-content-center">

@@ -1,5 +1,13 @@
 @extends('layouts.app')
 
+@section('preload')
+
+<title>코알고파 | {{$companyTitle->companyTitle}} 후기 작성</title>
+<meta name="description" content="호주에 있는 회사 검색하고 직원 후기 통해서 최신 정보 얻어서 더 좋은 워홀 생활 합시다. {{$companyTitle->companyTitle}} 후기 남겨봅시다">
+<meta name="keywords" content="워홀, 워홀러, 호주, 회사, 후기, 검색, {{$companyTitle->companyTitle}}">
+@endsection
+
+
 @section('content')
 <div class="container">
     <div class="row justify-content-center">

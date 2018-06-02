@@ -2,8 +2,44 @@
 
 
 @section('preload')
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<style>
+.bgimg {
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
 
+}
+
+.darken-pseudo {
+  position: relative;
+}
+
+
+.darken-pseudo:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.darken-with-text p, .darken-with-text h1 {
+  margin: 0;
+  text-align: center;
+  color: white;
+  padding-top: 0;
+  position: relative;
+  z-index: 1;
+}
+ </style>
+
+	<title>코알고파 | 호주 워홀 지식 커뮤니티 - 홈</title>
+	<meta name="description" content="코알고파는 호주에 있는 모든 워홀러들을 위한 커뮤니티 사이트입니다 회사의 후기랑 인터뷰랑 기사랑 게시판으로 워홀에 대한 지식 나누자는 의미로 만든 공간입니다">
+	<meta name="keywords" content="워홀, 워홀러, 호주, 취직, 회사, 취업, 비자, 언어, 문화, 숙소, 인터뷰, 기사">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 @endsection
 
 @section('content')

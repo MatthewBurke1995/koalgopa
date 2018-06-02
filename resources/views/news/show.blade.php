@@ -1,5 +1,12 @@
 @extends('layouts.app')
 
+@section('preload')
+<title>코알고파 | 기사 - </title>
+<meta name="description" content="{{ $article->articleTitle }}">
+<meta name="keywords" content="워홀, 워홀러, 호주, 기사, 뉴스">
+@endsection
+
+
 @section('content')
 <div class="container">
     <div class="row justify-content-center">

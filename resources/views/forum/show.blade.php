@@ -1,5 +1,12 @@
 @extends('layouts.app')
 
+
+@section('preload')
+<title>코알고파 | 게시판 - {{$post->postTitle}}</title>
+<meta name="description" content="호주 워홀러들을 위한 자유 게시판에 사는 얘기나 하자 {{$post->postTitle}}">
+<meta name="keywords" content="워홀, 워홀러, 호주, 게시판">
+@endsection
+
 @section('content')
 <div class="container">
 		<div class="row justify-content-center">
