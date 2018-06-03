@@ -47,7 +47,7 @@
 
                         @guest
                             <li><a class="nav-link" href="{{ route('login') }}">{{ __('로그인') }}</a></li>
-                            <li><a class="nav-link" href="{{ route('register') }}">{{ __('계좌 만들기') }}</a></li>
+                            <li><a class="nav-link" href="{{ route('register') }}">{{ __('회원 가입') }}</a></li>
 
                         @else
                             <li class="nav-item dropdown">
