@@ -24,9 +24,39 @@ a { color:$fresh-link-colour;
 a:hover { color:$hover-link-colour; }
 a:visited { color: $visited-link-colour ; }
 
-td:first-child {
-  font-weight: bold;
+.bgimg {
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+
 }
+
+.darken-pseudo {
+  position: relative;
+}
+
+
+.darken-pseudo:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.darken-with-text p, .darken-with-text h1 {
+  margin: 0;
+  text-align: center;
+  color: white;
+  padding-top: 0;
+  position: relative;
+  z-index: 1;
+}
+
+
 	
 .bottom-buffer {
   margin-bottom::10px;
